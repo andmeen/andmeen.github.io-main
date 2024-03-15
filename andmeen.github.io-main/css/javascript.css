@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Shizuru&family=Tajawal:wght@300;400&display=swap');
+
+*{
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navgiation a{
+   color: #000;
+   text-decoration: none;
+   font-size: 1.4em;
+   font-weight: 500;
+   padding-left: 30px;
+}
+
+.navgiation a:hover{
+    color: #0D7BF2;
+}
+
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.hr{
+	border: 2px #0D7BF2 solid;
+}
+
+.btn-thx{
+	color: #fff;
+  background-color: #0D7BF2;
+  border-radius: 15px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn-thx:hover{
+	color: #000;
+}
+
+.level{
+  text-align: center;
+  color: #F7E018;
+  padding-top: 15px;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	background-color: #2051FC;
+	overflow-x: hidden;
+	transition: 0.3s;
+	padding-top: 60px;
+	font-size: 20px;
+  }
+  
+  .sidenav h1 {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	display: block;
+	transition: 0.2s;
+  }
+  
+  .sidenav h1:hover {
+	color: #000;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  #main {
+	transition: margin-left .5s;
+	padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+
+  .video{
+    border-radius: 14px;
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width: 767px) {
+   .video{
+     border-radius: 14px;
+     margin-left: 10px;
+     width: 340px;
+     height: 300px;
+   }
+
+   .btn-thx{
+    color: #000;
+    background-color: #0D7BF2;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: "Tajawal", sans-serif;
+    padding: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 250px;
+  }
+  
+  .btn-thx:hover{
+    color: #fff;
+  }
+}
+
+
+   #dark{
+    font-size: 22px;
+    border: #000 1px solid;
+    border-radius: 15px;
+    padding: 4px 4px 4px 4px;
+    background-color: #0D7BF2;
+    color: #fff;
+ }
+
+#editor{
+  font-size: 24.5px;
+  margin-right: 10px;
+  outline: none;
+  background-color: #0D7BF2;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.text{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Tajawal", sans-serif;
+  outline: none;
+  border-radius: 10px;
+}
+
+.all-videos{
+  display: inline-block;
+}
+
+.video-btn{
+  font-size: 25px;
+  background-color: #0D7BF2;
+  color: #fff;
+  outline: none;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+}
+
+.edit{
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width:1023px){
+  header{
+      padding: 12px 20px;
+  }
+
+  .navgiation a{
+      padding-left: 10px;
+  }
+
+  .title{
+      font-size: 1.8em;
+  }
+
+  section{
+      padding: 80px 20px;
+  }
+
+  .main-content h2{
+      font-size: 1em;
+  }
+
+  .main-content h3{
+      font-size: 1.6em;
+  }
+
+  .content{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+
+@media (max-width:641px){
+  body{
+      font-size: 12px;
+  }
+
+  .main-content h2{
+      font-size: 0.8em;
+  }
+
+  .main-content h3{
+      font-size: 1.4em;
+  }
+}
+
+@media (max-width:300px){
+  body{
+      font-size: 10px;
+  }
+}
