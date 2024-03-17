@@ -359,7 +359,8 @@ footer .icon:hover {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;
-  background-color: #4c3fe2;
+  background-color: #3727f1cb;
+  border: 1px solid #3727f1cb;
 }
 
 .lan_button2{
