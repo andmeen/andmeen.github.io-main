@@ -5,6 +5,7 @@
   --gray: #c4c4c4;
   --light-purple: #6559ef;
   --dark-purple: #4c3fe2;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -359,7 +360,7 @@ footer .icon:hover {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;
-  background-color: #3727f1cb;
+  background-color: #200fdccb;
   border: 1px solid #3727f1cb;
 }
 
@@ -368,4 +369,10 @@ footer .icon:hover {
   font-size: 23px;
   color: #fff;
   font-family: 'Rubik', sans-serif;
+}
+
+.start-button{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
